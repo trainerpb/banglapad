@@ -154,7 +154,7 @@ class BanglaPadUI extends JFrame implements ActionListener
     JMenuItem[] items=new JMenuItem[]{new JMenuItem("Save"),new JMenuItem("Save As PDF"),new JMenuItem("Open"),new JMenuItem("EXIT")};
 
 	public BanglaPadUI(){
-		super("Soham Sengupta's Bengali Editor");
+		super("Change this text");
         JMenu menu=new JMenu("File");
         for(int i=0;i<items.length;i++){
             items[i].addActionListener(this);
